@@ -1,0 +1,40 @@
+body{
+    margin: 0;
+    font-family: Arial,sans-serif;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: red;
+    height: 100vh;
+}
+.container{
+    display: grid;
+    grid-template-columns: 25% 25% 25% 25%;
+    gap: 20px;
+    padding: 20px;
+    
+}
+.image{
+    background-color: red;
+    border: 1px solid red;
+    grid-template-columns: 50% 50%;
+    
+    display: flex;
+    
+
+
+}
+.image img{
+    width: 100%;
+    max-width: 150px;
+    height: auto;
+    grid-template-columns: 50% 50%;
+    margin-bottom: 10px;
+
+}
+.container p{
+    font-size: 15px;
+
+
+
+}
